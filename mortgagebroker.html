@@ -1,0 +1,85 @@
+<!-- DEVELOPER: Sagar Anand, IS117-005, Fall 2019 -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <title>Imperial Real Estate</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/mortgagebroker.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"><img class="logo" src="images/LogoDesignIR.jpg" alt="Imperial Real Estate Logo" ></a>
+</header>
+<nav id = "mobile_menu"></nav>
+<nav id = "navigation_menu">
+    <ul>
+        <li><a class = "current" href = "index.html">HOME</a></li>
+        <li><a href = "consultrealtors.html">CONSULT OUR TOP REALTORS</a></li>
+        <li><a href = "mortgagebroker.html">SCHEDULE AN APPOINTMENT <i id="i" class="arrow down"></i></a>
+            <ul>
+                <li><a href = "mortgagebroker.html">Schedule Appointment with our Mortgage Broker</a></li>
+                <li><a href = "financialadvisor.html">Schedule Appointment with our Financial Advisor</a></li>
+            </ul>
+        </li>
+        <li><a href = "aboutus.html">ABOUT US</a></li>
+        <li><a href = "contactus.html">CONTACT US</a></li>
+    </ul>
+</nav>
+
+<main class="bg">
+    <h1> WHY CONSULT A MORTGAGE ADVISOR </h1>
+
+    <p> Mortgage advisors are essential in order to help the client develop a firm understanding of different types of
+        mortgage loans available, financial institutions to consider getting a mortgage loan from, setting up down
+        payment price for the property, and how in turn it will affect the length of the contract with the continuously
+        changing tax/interest rates.  This further gives the client an upper hand while negotiating mortgage terms
+        with the lending institution and essentially understand each and every mortgage term put forth by the lender.
+        <br><br>
+        This further helps the client develop a clear and an acute understanding on the various pros and cons to
+        weigh before setting up an amount for a mortgage loan lent from any financial institution further encompassing
+        the continually fluctuating interest rates that could significantly have an affect on the initial total value
+        of the property.
+        <br><br>​
+        In order to help the clients currently under dealings or contracts with the firm itself including the first
+        time home buyers/sellers, working with our firm's Realtors will get a significant discount on such premium
+        consultations. This includes first free consultation and a significant discount if opted in for the
+        second visit.
+        <br><br>
+        "As mortgage brokers, we're able to offer buyers the products of as many banks as we can handle, which gives
+        them a broader product set," says Andrew Weinberg, principal at Silver Fin Capital. "A good mortgage broker
+        anticipates hiccups before they occur. Our expertise is knowing what kinds of issues, like closing on time,
+        will come up on loans that might make it not work at one lender, but may make it work at another."
+        <br><br>
+        Schedule an appointment now to meet our top and experienced Mortgage Brokers.
+        <br><br><br><br><br>
+    </p>
+
+    <button type="button" class="btn btn-mortgagebroker">SCHEDULE AN APPOINTMENT NOW!</button>
+    <br><br>
+
+
+
+</main>
+
+<!-- Footer Content -->
+
+<footer class="footer page-footer font-small">
+    <div class="container">
+        <div class="row">
+             <span class="text-muted">&copy; Sagar Anand, 2019.
+                    |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>

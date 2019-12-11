@@ -1,0 +1,109 @@
+<!-- DEVELOPER: Sagar Anand, IS117-005, Fall 2019 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Imperial Real Estate</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/homecards.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#navigation_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <a href="index.html"><img class="logo" src="images/LogoDesignIR.jpg" alt="Imperial Real Estate Logo" ></a>
+    </header>
+<nav id = "mobile_menu"></nav>
+<nav id = "navigation_menu">
+    <ul>
+        <li><a class = "current" href = "index.html">HOME</a></li>
+        <li><a href = "consultrealtors.html">CONSULT OUR TOP REALTORS</a></li>
+        <li><a href = "mortgagebroker.html">SCHEDULE AN APPOINTMENT <i id="i" class="arrow down"></i></a>
+            <ul>
+                <li><a href = "mortgagebroker.html">Schedule Appointment with our Mortgage Broker</a></li>
+                <li><a href = "financialadvisor.html">Schedule Appointment with our Financial Advisor</a></li>
+            </ul>
+        </li>
+        <li><a href = "aboutus.html">ABOUT US</a></li>
+        <li><a href = "contactus.html">CONTACT US</a></li>
+    </ul>
+</nav>
+
+<main class="bg">
+</main>
+
+    <!-- CARD SECTION FOR THE HOME PAGE -->
+
+    <section class="title">
+        <h3>Visit us</h3>
+        <h1>Imperial Real Estate</h1>
+        <hr>
+    </section>
+    <section class="cards">
+        <article class="card">
+            <a href="consultrealtors.html">
+                <img src="images/cardp2.jpg">
+            </a>
+            <div class="card-wrapper">
+                <a href="consultrealtors.html">
+                    <h2>OUR TOP REALTORS</h2>
+                </a>
+                <p> Look at the portfolios of our top real estate agents and feel free to contact... </p>
+                <div class="card-more">
+                    <a href="consultrealtors.html">Read More...</a>
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <a href="aboutus.html">
+                <img src="images/cardp1.jpg">
+            </a>
+            <div class="card-wrapper">
+                <a href="aboutus.html">
+                    <h2>ABOUT US</h2>
+                </a>
+                <p> Imperial Real Estate encompasses top realtors, mortgage brokers, and financial advisors...</p>
+                <div class="card-more">
+                    <a href="aboutus.html">Read More...</a>
+                </div>
+            </div>
+        </article>
+        <article class="card">
+            <a href="contactus.html">
+                <img src="images/cardp3.jpg">
+            </a>
+            <div class="card-wrapper">
+                <a href="contactus.html">
+                    <h2>CONTACT US</h2>
+                </a>
+                <p> Need assistance? Feel free to leave to contact us directly and we will contact you back...</p>
+                <div class="card-more">
+                    <a href="contactus.html">Read More...</a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+</body>
+
+<!-- FOOTER SECTION -->
+
+<footer class="footer page-footer font-small">
+    <div class="container">
+        <div class="row">
+             <span class="text-muted">&copy; Sagar Anand, 2019.
+                    |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>

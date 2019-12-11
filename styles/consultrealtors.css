@@ -1,0 +1,43 @@
+/* DEVELOPER: Sagar Anand, IS117-005, Fall 2019 */
+
+.card-title {margin-top: 25vh; text-align: center}
+.card-text {margin-top: 25vh}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/realtorsbg.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Our Realtors Box */
+
+h1{width: auto; color: #00063a; margin:0; padding-top: 40px; font-size: 45px; text-align: center;
+    border: 3px solid #00063a; font-weight: 850;
+    background-color: #f0f0f0; padding-bottom: 35px; padding-left: 35px;
+    font-family: 'Work Sans', sans-serif; font-style: italic;}
+
+
+img {
+    padding-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+p{
+    float:right; width: 30vw; font-size: 20px;
+}
+
+h4 {
+    float:right; width: 30vw;
+    font-size: 25px; color: #dddddd; font-family: 'Work Sans', sans-serif; font-style: italic;
+}
+

@@ -1,0 +1,132 @@
+/* DEVELOPER: Sagar Anand, IS117-005, Fall 2019 */
+
+.logo {max-height: 100px; margin:0px; padding:0px; width: auto; height: auto;}
+
+
+<-- Navigation Menu Style -->
+
+navigation_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#navigation_menu ul li {
+    float: left;
+    width: 20%;
+
+}
+
+#navigation_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #00063a;
+    color: white;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+#i{
+    margin-left: 10px;
+    border: solid #ffffff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#navigation_menu ul ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+#navigation_menu ul ul li {
+    float: none;
+}
+#navigation_menu ul li:hover > ul {
+    display: block;
+}
+#navigation_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+}
+body{margin: 0;}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/IREHomeImage.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {min-height: 100vh}
+
+/* Footer Style */
+footer p {
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+
+}
+
+footer {
+    background-color: #d1d2d0;
+    clear: both;
+    bottom: 0;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#mobile_menu{display:none;}
+
+/* Mobile Landscape to Portrait */
+@media only screen and (max-width: 767px) {
+    header img { float: none; }
+    header { text-align: center; }
+
+    #navigation_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    .slicknav_menu {
+        background-color: #00063a !important;
+    }
+}
+
+/* Mobile Portrait to Landscape */
+@media only screen and (max-width: 479px) {
+    body { font-size: 90%; }
+}
+
+/* Standard Style Mobile */
+@media only screen and (max-width: 959px) {
+    section h1 { font-size: 135%; }
+    section h2, aside h2 { font-size: 120%; }
+}
+

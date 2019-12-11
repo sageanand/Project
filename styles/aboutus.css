@@ -1,0 +1,19 @@
+/* DEVELOPER: Sagar Anand, IS117-005, Fall 2019 */
+
+p {float:right; text-overflow: clip; max-width: 48vw; color: #000636; font-size: 17px;
+    font-family: 'Work Sans', sans-serif; font-style: italic;}
+h1{float:right; width: 48vw; color:#000636; margin:0; padding-top: 40px; font-size: 45px;
+    font-family: 'Work Sans', sans-serif; font-style: italic;}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/aboutusimg.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

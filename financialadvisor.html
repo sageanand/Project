@@ -1,0 +1,81 @@
+<!-- DEVELOPER: Sagar Anand, IS117-005, Fall 2019 -->
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <title>Imperial Real Estate</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/mortgagebroker.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <a href="index.html"><img class="logo" src="images/LogoDesignIR.jpg" alt="Imperial Real Estate Logo" ></a>
+</header>
+<nav id = "mobile_menu"></nav>
+<nav id = "navigation_menu">
+    <ul>
+        <li><a class = "current" href = "index.html">HOME</a></li>
+        <li><a href = "consultrealtors.html">CONSULT OUR TOP REALTORS</a></li>
+        <li><a href = "mortgagebroker.html">SCHEDULE AN APPOINTMENT <i id="i" class="arrow down"></i></a>
+            <ul>
+                <li><a href = "mortgagebroker.html">Schedule Appointment with our Mortgage Broker</a></li>
+                <li><a href = "financialadvisor.html">Schedule Appointment with our Financial Advisor</a></li>
+            </ul>
+        </li>
+        <li><a href = "aboutus.html">ABOUT US</a></li>
+        <li><a href = "contactus.html">CONTACT US</a></li>
+    </ul>
+</nav>
+
+<main class="bg">
+    <h1> WHY CONSULT A FINANCIAL ADVISOR </h1>
+
+    <p> Financial advisors play a consistent and a vital role in advising the clients’ on how to better manipulate
+        and organize their spending for the completion of the long-term mortgage plans without much hassle.
+        Additionally, encompassing various directions to manage their budget and be able to significantly develop
+        skills on how to successfully organize their spending and build a successful plan to pay off the loan dept
+        without much inconvenience. This further gives clients the ability to manipulate their spending’s and carry
+        out specific plans by taking necessary steps to pay off the debt/loan accordingly.
+        <br><br>
+        It is essential for an individual to have a clear understanding on how to better manage his/her finances in
+        order to successfully pay off the mortgage dept without any inconvenience. Hence, the services offered by
+        Imperial Real Estate lays a firm foundation by essentially providing premium expertise by the most experienced
+        financial advisors in order to develop a strong financial plan for the clients.
+        <br><br>
+        In order to help the clients currently under dealings or contracts with the firm itself including the first
+        time home buyers/sellers, working with our firm's Realtors will get a significant discount on such premium
+        consultations. This includes first free consultation and a significant discount if opted in for the second
+        visit.
+        <br><br>
+        Schedule an appointment now to meet our top and experienced Mortgage Brokers.
+        <br><br><br><br><br>
+    </p>
+
+    <button type="button" class="btn btn-mortgagebroker">SCHEDULE AN APPOINTMENT NOW!</button>
+    <br><br>
+
+
+
+</main>
+
+<!-- Footer Content -->
+
+<footer class="footer page-footer font-small">
+    <div class="container">
+        <div class="row">
+             <span class="text-muted">&copy; Sagar Anand, 2019.
+                    |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
